@@ -7,7 +7,10 @@ function App() {
     <>
       <div className="flex justify-center items-center h-screen font-outfit">
         <div className="bg-white rounded-lg shadow-lg p-4 pb-10 flex flex-col items-center w-[320px] max-w-full gap-6">
-          <Image url="/image-qr-code.png" alt="QR image" />
+          <Image
+            url={`${import.meta.env.BASE_URL}image-qr-code.png`}
+            alt="QR image"
+          />
           <QRDescription />
         </div>
       </div>
