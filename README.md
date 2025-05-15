@@ -1,7 +1,3 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
 ## Project Overview
 
 This project is a QR Code component challenge from Frontend Mentor. It is built using React, TypeScript, and Vite. The application consists of the following components:
